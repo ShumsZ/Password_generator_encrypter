@@ -3,10 +3,10 @@ It is common knowledge for most these days that a strong password is necessary f
 
 A strong password consists of:
 
-•	A combination of numbers, letters and special characters
-•	A random ordering of characters (i.e. no consecutive letters or numbers)
-•	Definitely no common phrases or words (like ‘password’…)
-•	At least 16 characters 
+- A combination of numbers, letters and special characters
+- A random ordering of characters (i.e. no consecutive letters or numbers)
+- Definitely no common phrases or words (like ‘password’…)
+- At least 16 characters 
 [This reddit user](https://www.reddit.com/r/dataisbeautiful/comments/ifral7/oc_time_it_takes_to_crack_a_password_updated/) shared a great visual that describes perfectly what a strong password means:
 
 ![image](https://preview.redd.it/kqgnls4nzyi51.jpg?width=960&crop=smart&auto=webp&s=09ada6a85dd784af54771ec533aac2b83337cc04)
