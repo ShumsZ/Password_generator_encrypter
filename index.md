@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Password Generators
+It is common knowledge for most these days that a strong password is necessary for security online.
 
-You can use the [editor on GitHub](https://github.com/ShumsZ/PassGen/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A strong password consists of:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+•	A combination of numbers, letters and special characters
+•	A random ordering of characters (i.e. no consecutive letters or numbers)
+•	Definitely no common phrases or words (like ‘password’…)
+•	At least 16 characters 
+[This reddit user](https://www.reddit.com/r/dataisbeautiful/comments/ifral7/oc_time_it_takes_to_crack_a_password_updated/) shared a great visual that describes perfectly what a strong password means:
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ShumsZ/PassGen/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![image](https://preview.redd.it/kqgnls4nzyi51.jpg?width=960&crop=smart&auto=webp&s=09ada6a85dd784af54771ec533aac2b83337cc04)
+ 
+With that in mind, and as an introduction to some fundamentals of Python, I decided to implement a password generator as my first ever pet project.
+I have made 2 password generators:
+- v1.0 – provides the user with a 16 digit password that is guaranteed to be a random assortment of letters, capital letters, numbers and special characters
+- v2.0 – provides a password based on the user input of how many digits they would like the password to be set for. It gives the user a warning if the password is less than 8 digits. 
