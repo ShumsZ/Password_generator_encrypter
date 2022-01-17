@@ -18,7 +18,7 @@ def pass_gen():
     for i in range(1, chars + 1):
         password += random.choice(variables)
 
-    if len(password) <= 6:
+    if len(password) <= 8:
         return password + " ; " + warning
     return password
 
