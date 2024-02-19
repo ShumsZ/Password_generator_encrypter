@@ -1,4 +1,13 @@
-# Password Generators
+# Password Generator and Encrypter
+## password_creator.py is the main file. 
+Functionality includes:
+* Creating your custom password. 
+* Running a check of that custom password against a list of commonly used passwords
+* Generating a complex custom password based on user input of a number of characters for the password (with a warning message for short passwords)
+* Encrypted the generated password using a simple substitution cipher
+* Decrypting a ciphertext that was created using the above encryption
+
+
 It is common knowledge for most these days that a strong password is necessary for security online.
 
 A strong password consists of:
